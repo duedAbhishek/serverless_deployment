@@ -6,24 +6,23 @@ import os
 
 app = FastAPI()
 
-# Enable CORS for all origins and GET methods
+# Enable CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_methods=["GET"],
-    allow_headers=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"]
 )
 
-# Load data.json
+# Load marks data once at startup
 data_path = os.path.join(os.path.dirname(__file__), '..', 'data.json')
-with open(data_path) as f:
+with open(data_path, 'r') as f:
     students = json.load(f)
+marks_lookup = {entry["name"]: entry["marks"] for entry in students}
 
-# Create lookup dict
-marks_dict = {s["name"]: s["marks"] for s in students}
-
-@app.get("/")
+# Route must be mounted at "/api" since Vercel calls this path
+@app.get("/api")
 async def get_marks(request: Request):
     names = request.query_params.getlist("name")
-    result = [marks_dict.get(name, None) for name in names]
-    return JSONResponse(content={"marks": result})
+    marks = [marks_lookup.get(name, None) for name in names]
+    return JSONResponse(content={"marks": marks})
