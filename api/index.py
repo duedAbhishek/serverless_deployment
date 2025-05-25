@@ -1,29 +1,29 @@
+from fastapi import FastAPI, Request
+from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 import json
 import os
 
-def handler(request):
-    # Enable CORS
-    headers = {
-        "Access-Control-Allow-Origin": "*",
-        "Content-Type": "application/json"
-    }
+app = FastAPI()
 
-    # Load JSON data
-    file_path = os.path.join(os.path.dirname(__file__), '..', 'data.json')
-    with open(file_path, 'r') as f:
-        data = json.load(f)
+# Enable CORS for all origins and GET methods
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["GET"],
+    allow_headers=["*"],
+)
 
-    # Parse query parameters
-    names = request.get("query", {}).get("name", [])
-    if isinstance(names, str):  # If only one name was passed
-        names = [names]
+# Load data.json
+data_path = os.path.join(os.path.dirname(__file__), '..', 'data.json')
+with open(data_path) as f:
+    students = json.load(f)
 
-    # Create a name-to-marks dictionary for fast lookup
-    marks_lookup = {student["name"]: student["marks"] for student in data}
-    result = [marks_lookup.get(name, None) for name in names]
+# Create lookup dict
+marks_dict = {s["name"]: s["marks"] for s in students}
 
-    return {
-        "statusCode": 200,
-        "headers": headers,
-        "body": json.dumps({ "marks": result })
-    }
+@app.get("/")
+async def get_marks(request: Request):
+    names = request.query_params.getlist("name")
+    result = [marks_dict.get(name, None) for name in names]
+    return JSONResponse(content={"marks": result})
