@@ -238,3 +238,29 @@ img {
   transform: scale(1.04);
   box-shadow: 0 6px 22px #ffb6e762;
 }
+
+
+.prev-btn {
+  margin: 12px auto 16px auto;
+  padding: 11px 25px;
+  border: none;
+  border-radius: 28px;
+  background: linear-gradient(90deg, #c7ffe0 0%, #bbdfff 100%);
+  color: #2b638f;
+  font-weight: 600;
+  font-size: 1.02rem;
+  text-align: center;
+  box-shadow: 0 1px 7px rgba(50, 170, 230, 0.09);
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  transition: transform 0.1s, box-shadow 0.13s;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+.prev-btn:hover {
+  background: linear-gradient(90deg, #bbdfff 0%, #c7ffe0 100%);
+  color: #22527e;
+  transform: scale(1.04);
+  box-shadow: 0 5px 18px #bbdfff88;
+}

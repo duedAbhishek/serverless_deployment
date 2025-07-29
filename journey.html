@@ -1,38 +1,30 @@
-<!-- journey.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hamari Journey</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Journey Game 🎮</title>
+  <link rel="stylesheet" href="css/journey.css">
+  
 </head>
 <body>
-  <div class="content">
-    <h2>Here's a Brief Journey of Our Friendship</h2>
-    <p><em>Count your life by smiles, not tears. Count your age by friends, not years. A wish for you on your birthday, whatever you ask may you receive, whatever you seek may you find, whatever you wish may it be fulfilled on your birthday and always. Happy birthday!</em></p>
-
-    <p>As I am kind of Chatterbox with very few people, to mene message pe wish karne ki jagah ye tarika chuna, cuz messages mujhe dher sare karne padte hain (😁 aadat se majboor Chatterbox). Read it full okay, don't judge too early.</p>
-
-    <p>If I'm not mistaken and as far as I remember, we've been friends since class 11th (2019) till aaj tak, aur ummeed hai hum hamesha dost rahenge.</p>
-
-    <p>Us time pe meri extrovert personality ki wajah se "almost" saari female classmates  
-    meri friends thi. Lekin tumhare saath, mera bond shuru se hi alag tha. Shayad isi wajah  
-    se hum abhi bhi dost hain. Tumhari aura se mujhe hamesha ek trustworthy, mature vibe milti thi,  
-    jisse humari dosti bilkul unique bani.</p>
-
-    <p>Ek cheez mein pakka hoon: tum meri woh ek dost ho jisse main kuch bhi share karne mein safe feel karta hoon, kyunki mujhe trust hai ki jo bhi baat hogi, sirf hum dono ke beech rahegi. Jab main stuck hota tha, main tumse opinion maangta tha. Opinions bahut matter karti hain—they naya perspective deti hain.</p>
-
-    <p><strong>Aur waise bhi "My side of story doesn't matter for me anymore. Life happened, I healed (though took long enough), but most importantly I learned ki real happiness hai apno ko khushi dena bina kisi expectation ke."</strong></p>
-
-    <p>Aaj, mujhe sach mein maza aata hai apne close ones ko khush aur safe rakhne mein, aur dekhne mein ki hum milke apni potentials ko kaise push kar sakte hain.</p>
-
-    <h3>Wishes</h3>
-    <p>So, meri charming friend ko ek bahut hi beautiful aur charming birthday ki shubhkaamnayein! Tumhe mile woh sab jo tum chahti ho, success ki udaan ho, health best ho, aur khoobsurat raho—andar se bahar se.</p>
-
-    <p><strong>If there's even a slight chances at getting something that will make you happy, risk it. Life's too short & happiness is too rare.</strong></p>
-
-    <a href="index.html" class="btn">Back to Home</a>
+  <div class="game-container">
+    <h1>Friendship & Fun Game! 🎲</h1>
+    <div class="page-title">Thode se khel ho jayen😁</div>
+    <div class="instructions">
+      <b>How to Play:</b>
+      <ol style="margin:0;padding-left:18px;">
+        <li>Do tarah ke questions hain: friendship quiz (with correct answer) &amp; fun quiz (See what each answer say).</li>
+        <li>Har question ke multiple times answers choose kar skte ho, each options holds something, wish you try all options.</li>
+        <li>Last tak pohochne par, ek surprise reward ya sweet message bhi hai boss!</li>
+        <li>Enjoy! 😄</li>
+      </ol>
+    </div>
+    <!-- Dynamic Quiz Section -->
+    <div id="questionZone"></div>
+    <!-- Result/Reward message on completion -->
+    <div id="finalMessage" class="result-msg" style="display:none;"></div>
   </div>
+  <script src="script/journey-quiz.js"></script>
 </body>
 </html>

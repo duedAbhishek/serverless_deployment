@@ -1,45 +1,56 @@
-## Count your life by smiles, not tears. Count your age by friends, not years. A wish for you on your birthday: whatever you ask may you receive, whatever you seek may you find, whatever you wish may it be fulfilled on your birthday and always. Happy Birthday Neha!
+```markdown
+# Some Basic Rules/instructions for these quizes:
+1. There are two type of questions
+ - First one are related to our friendship. These include 4 options with one correct option. By selecting each answer, you will get some reaction with Correct or incorrect label. Along with you can re-answer single question multiple time until you click for next button for next question.
+ - Then Goes second type questions, They also do have 4 options but they do not have any correct option. Each option hold a reaction to its relative option. You can attempt multiple time and can move to next question by clicking next question.
 
-```text
-As someone who’s a bit of a Chatterbox (but only with a chosen few), mujhe message bhejne ke bajaye yeh website ka idea zyada personal laga 😁. 
-Messages toh dher saare karne padte hain but this is a single way with long expressions. 
-So... Read this fully okay? Don’t judge too early. I keep it as a story.
+2. When person attempt all questions. He can move to a final page, back page,
+
+3. Style should be mobile responsive.
+4. Interface should be engaging, interactive and interestingly beautiful
 ```
 
+
+# Quiz about Friendship:
+
+1. Question 1: From when we are friends?
+   Options: from childhood, from primary, for some years, from Class 11th
+   Correct: From class 11th
+   Rections for each options respectively: Awww I thought so; I know you came crying in the class; Batao itne kam samay me bhi hum acche dost ban gye; Ahh you hit the right spot 👏 Cheers!!!;
+
+2. Question 2: Who was the first student one giving viva/explaination of Maths practical in the prayer ground?
+   Options: Abhishek, Faizan, Devendra, Neha
+   Correct: Faizan
+   Reactions for each options respectively: I wished I could go first; Damn he dodged my questions and you're correct; Are mama nahi tha, By the way he had crush on you that time; Naah, you came in middle and asked me not to question 😂;
+3. Question 3: Teacher's day par kiska sir foota tha?
+   Options: Pratibha, Anupam, Ankit aka Choodi, Ana
+   Correct: Anupam
+   Reactions for each option resp.: Naah wo itni activities me kaha engage rhti thi; Haan poor soul, puri eyebrow fat gyi thi fir dressing krni padi thi; Iska to foot hi jata 😂; Wo bholi bhali si, wo to nahi thi.;
+4. Question 4: Sabse Badmosh baccha kaun tha? Offcourse me 😂😂😂. But question is Meri bro bestie(female) kaun thi aur hai.
+   Options: Kalpana, Neha(you), Anupam, Pratibha
+   Correct: Neha(you)
+   Rections for each option resp.: Naah! dost thi but bro bestie nahi; How sharp your memory is, Hip-hip hooray🎉!; Ye to meri bahan jesi thi after uska sir fata tha; Naah! same vibe nahi hai, wo Sharmati bahut thi such a innocent soul, but she's also friend;
+5. Question 5(last): Kaun other class ka student aaya tha, tb class(not you) hooting kar rhi thi?
+   Options: Sangeeta, Jolly, Ajay, Preeti
+   Correct: Jolly
+   Reactions for each options resp.: Naah! tmhare alawa koi nhi tha us time; Yes, bechari sharma gyi thi aur haan me nahi tha us hooting ke piche bas meri eyes thi😂(Shararti man); Usko to nasha krwa ke lita diya tha class me; Is bechari ko jarurat hi nahi padi aane ki;
+
+# Fun Quiz with each has different jokes: There are no correct answers just reaction to each options
+
+1. What’s the secret ingredient in your charm?
+   Options: Glitter from Mars; Smile that rewires brains; Eyes with hidden glitter mode; Wi-Fi strength level confidence;  
+   Reactions: Glitter from Mars? Bro, even aliens be simping on your shine; That smile could restart Windows without pressing CTRL+ALT+DEL; Eyes so sparkly—Google Images wants to feature you.; Her vibe connects hearts faster than 5G.
+2. If you ruled the world for a day, what’s the first law you’d pass?
+   Options: Mandatory dessert after breakfast; No boring replies allowed; Everyone must compliment her Kajal; “No Math” Day for emotional healing
+   Reactions: Dessert after breakfast? Ab swarg ki pariyo se kya kam ummed laga skte hain🤭.; You're the CEO of "Why be boring when you're adorable?; That kajal? Sharp enough to slice through heartbreak. But har roj kaha lagate ho; "No Math" day? That would be unfair to me;
+3. Your future job title should be?
+   Options: Official Good Vibes Supplier; Minister of Cuteness; World’s First Meme Therapist; Queen of Chill;
+   Reactions: Wherever you goes, smiles auto-download.; Cuteness ministry never had elections, you were born elected.; Your memes are cheaper than therapy and twice as healing.; You chill so smooth, even iced coffee’s jealous.;
+4. Your default reply when someone flirts badly?
+   Options: Kya tumne fridge ke samne khade hoke rehearse kiya tha; Nice try, Romeo ke beta version.; That line made my cat(pet) roll her eyes.; Please consult Google before your next attempt.;
+   Reactions: Even the fridge froze mid-cool cycle hearing that one.; Romeo beta has officially been downgraded to bug report.; Your cat’s now applying for an acting role in sarcasm.; Google called. It said “Don’t bring my name into this.;
+5. If you had a magical power, what would you do first?
+   Options: Teleport to Maldives with your gang; Teleport snacks to her blanket fort; Summon puppies every time you sneeze; Turn bad days into “Let’s chill with bestie” days;
+   Reactions: Maldives got nervous—too much glow coming in one frame. Mujhe mat bhul jana🤭; Snacks + blanket fort = Disney+ and emotional support. You are foody one, Me too 😁.; Sneeze → puppy → instant mood fix. Scientists confused(are b## ye kya bawaal h).; She’s secretly a mood-fixer with sparkles included.
 ---
-
-# 🌟 Journey of Our Friendship : From Class 11th to Today
-
-```text
-If I remember correctly, humari dosti shuru hui Class 11th se, and since then we've grown, laughed, and evolved together. Honestly, mere extrovert nature ke wajah se tab “almost” most of our classmates mere dost the/thi. But our bond was never just casual, it always felt deeper, more grounded.
-
-You’ve always had that mature, trustworthy, and calm vibe. From the beginning, there was something different about you and maybe that’s why we’re still here, today, as friends.
-
-You're that rare person jiske saath I feel safe sharing anything. Whenever I felt stuck, I turned to you—not just for comfort, but because your opinions gave me a new perspective. You always listened with maturity, and that’s a gift few people carry.
-```
---- 
-
-
-# 🌷 Today & Beyond
-
-```text
-Now, reading all this... I presume that you won't take anything the wrong way. Me tmhare sath hamesha se emotions & expressions respectful and healthy rakhne ki koshish ki hai aur aage bhi koshish rahegi, by the way I know others too 😁.
-
-I’ve always valued people not for what they have or wear or where they live—but for who they truly are. And you, you’ve always been that kind of person. I respect you. I trust you. If tears ever showed up, I know you’re one of the very few I’d feel okay shedding them with. And I like the way ki mere muh pe agar meri galti ya kami h to tm nikalte ho without hesitation & me ummed krunga ki ese hi raho warna jhuthi tareef krne wale bahut mile hain and hote bhi hain.
-
-Even as an extrovert, I’ve always respected the privacy of my heart. And you’re one of the few people jinke saath woh boundary naturally dissolve ho jaati hai.
-
-And as per my biggest lesson of my life, I learnt a lot, maybe there will be more such lessons but Now I am a little bit immune. So Now I believe that
-"Real happiness is giving happiness to the people who matter, without expecting anything back."
-
-Now I just want to keep those close to me happy, safe, and encouraged, helping them fly higher, dream bolder, and shine brighter. As they say, unchaiyan choone ka maza tab aata hai jab apke bachpan ke dost sath me sidiyan chade hon and manzil par pahuchen. Warna Life me aur bhi milte hain but is umra me aur aajka time dekhte hue, utne trust worthy people milne ke chances kafi kam rhte hain. 
-```
---- 
-# 🎂 Birthday Wishes From the Heart
-
-```text
-So here's wishing you, the charming, beautiful soul a birthday full of light, laughter, and love. May you touch the sky with your dreams, stay glowing (inside and out), and receive everything your heart’s ever wished for.
-
-"If there’s even a slight chance at something that’ll bring you happiness—risk it. Life’s too short & happiness is too rare."
-```
 
