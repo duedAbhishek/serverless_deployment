@@ -9,18 +9,18 @@ document.addEventListener("DOMContentLoaded", () => {
     cor: 3,
     reacts: [
       "Awww I thought so 💖",
-      "I know you came crying in the class 😜",
-      "Batao itne kam samay me bhi hum acche dost ban gaye!",
+      "I know you used to come crying in the class 😜",
+      "Batao itne kam samay me bhi hum acche dost ban gaye!🤭",
       "Ahh you hit the right spot 👏 Cheers!!!"
     ]
   },
   {
-    q: "Who was the first student one giving viva/explanation of Maths practical in the prayer ground?",
+    q: "Who was the first student giving the viva of Maths practical in the prayer ground?",
     opts: ["Abhishek", "Faizan", "Devendra", "Neha"],
     cor: 1,
     reacts: [
-      "I wished I could go first!",
-      "Damn he dodged my questions and you're correct! 🏆",
+      "I wished I could go first! 🥺",
+      "Damn he dodged my counter questions and you're correct! 🏆",
       "Are mama nahi tha, By the way he had crush on you that time 😂",
       "Naah, you came in middle and asked me not to counter questions 😆"
     ]
@@ -31,31 +31,31 @@ document.addEventListener("DOMContentLoaded", () => {
     cor: 1,
     reacts: [
       "Naah wo itni activities me kaha engage rhti thi",
-      "Haan poor soul, puri eyebrow fat gyi thi fir dressing krni padi thi",
+      "Haan poor soul🥺, puri eyebrow fat gyi thi fir dressing krni padi thi",
       "Iska nahi footta, cushions hai sir pe😂",
-      "Wo bholi bhali si, wo to nahi thi."
+      "Bholi bacchi, wo itni activities nahi krti thi but thi wahi pe."
     ]
   },
   {
-    q: "Sabse Badmosh baccha kaun tha? Offcourse me 😂😂😂. But question is Meri bro bestie(female) kaun thi aur hai.",
+    q: "Sabse Badmosh baccha kaun tha? Offcourse me 😂😂. But question is Meri bro bestie(female) kaun thi aur hai?",
     opts: ["Kalpana", "Neha(you)", "Anupam", "Pratibha"],
     cor: 1,
     reacts: [
-      "Naah! dost thi but bro bestie nahi",
+      "Naah! dost thi but bro bestie nahi😳",
       "How sharp your memory is, Hip-hip hooray🎉!",
       "Seedhe bacche mujhse door rhte hain, 😂",
-      "Naah! wo Sharmati bahut thi. But friend thi ab to bhul gyi hai!"
+      "Naah! wo Sharmati bahut thi. But friend thi ab to bhul gyi hai shayad🤔!"
     ]
   },
   {
-    q: "Kaun other class ka student aaya tha, tb class(not you) hooting kar rhi thi?",
+    q: "Kaun other class ka student aaya tha, tb class(except you) hooting kar rhi thi?",
     opts: ["Sangeeta", "Jolly", "Ajay", "Preeti"],
     cor: 1,
     reacts: [
-      "Hell Naah! tmhare alawa koi nhi tha us time",
-      "Yes, bechari sharma gyi thi aur haan me nahi tha us hooting ke piche bas meri eyes thi😂 (Shararti man)",
-      "Usko to nasha krwa ke lita diya tha class me",
-      "Is bechari ko jarurat hi nahi padi aane ki"
+      "Hell Naah!🫥 tmhare alawa koi nhi tha us time",
+      "Yes, bechari sharma gyi thi🤭 aur haan me nahi tha us hooting ke piche bas meri eyes thi😂 (Shararti man)",
+      "Usko to ek baar nasha krwa ke lita diya tha class me🤣",
+      "Is bechari ko jarurat hi nahi padi class me aane ki"
     ]
   }
 ]; // Keep your original question array here
@@ -69,9 +69,9 @@ document.addEventListener("DOMContentLoaded", () => {
       "Wi-Fi strength level confidence"
     ],
     reacts: [
-      "Glitter from Mars? Bro, even aliens be simping on your shine.",
+      "Glitter from Mars? Bro, even aliens be simping😏 on your shine.",
       "That smile could restart Windows without pressing CTRL+ALT+DEL 😁",
-      "Eyes so sparkly—Google Images wants to feature you.",
+      "Eyes so sparkly, Google Images wants to feature you.😋",
       "Your vibe connects hearts faster than 5G ❤️"
     ]
   },
@@ -80,14 +80,14 @@ document.addEventListener("DOMContentLoaded", () => {
     opts: [
       "Mandatory dessert after breakfast",
       "No boring replies allowed",
-      "Everyone must compliment her Kajal",
+      "Everyone must compliment your kajal",
       "“No Math” Day for emotional healing"
     ],
     reacts: [
       "Dessert after breakfast? Ab swarg ki pariyo se kya kam ummed laga skte hain🤭",
-      "You're the CEO of 'Why be boring when you're adorable?'",
-      "That kajal? Sharp enough to slice through heartbreak. But har roj kaha lagate ho!",
-      "'No Math' day? That would be unfair to me!"
+      "You're the CEO of 'Why be boring when you're adorable😻?'",
+      "That kajal? Sharp enough to slice through heartbreak😏. But har roj kaha lagate ho!",
+      "'No Math' day? That would be unfair to me🥺!"
     ]
   },
   {
@@ -99,10 +99,10 @@ document.addEventListener("DOMContentLoaded", () => {
       "Queen of Chill"
     ],
     reacts: [
-      "Wherever you goes, smiles auto-download.",
-      "Cuteness ministry never had elections, you were born elected.",
-      "Your memes are cheaper than therapy and twice as healing.",
-      "You chill so smooth, even iced coffee’s jealous."
+      "Wherever you go, smiles auto-download.😅",
+      "Cuteness ministry never had elections, you were born elected.😋",
+      "Your memes are cheaper than therapy and effective as twice as healing.🤡",
+      "You chill so smooth, even iced coffee’s jealous.🫠"
     ]
   },
   {
@@ -110,29 +110,29 @@ document.addEventListener("DOMContentLoaded", () => {
     opts: [
       "Kya tumne fridge ke samne khade hoke rehearse kiya tha?",
       "Nice try, Romeo ke beta version.",
-      "That line made my cat(pet) roll her eyes.",
+      "That line made my cat(pet) roll her eyes.🙄",
       "Please consult Google before your next attempt."
     ],
     reacts: [
-      "Even the fridge froze mid-cool cycle hearing that one.",
-      "Romeo beta has officially been downgraded to bug report.",
-      "Your cat’s now applying for an acting role in sarcasm.",
-      "Google called. It said 'Don’t bring my name into this.'"
+      "Even the fridge froze mid-cool cycle hearing that one🤣.",
+      "Romeo beta has officially been downgraded to bug report💀.",
+      "Your cat’s now applying for an acting role in sarcasm😅.",
+      "Google called. It said 'Don’t bring my name into this.'😐"
     ]
   },
   {
     q: "If you had a magical power, what would you do first?",
     opts: [
       "Teleport to Maldives with your gang",
-      "Teleport snacks to her blanket fort",
+      "Teleport snacks to your blanket fort",
       "Summon puppies every time you sneeze",
       "Turn bad days into ‘Let’s chill with bestie’ days"
     ],
     reacts: [
-      "Maldives got nervous—too much glow coming in one frame. Mujhe mat bhul jana🤭",
+      "Maldives got nervous, too much glow coming in one frame. Mujhe mat bhul jana🤭",
       "Snacks + blanket fort = Disney+ and emotional support. You are foody one, Me too 😁",
-      "Sneeze → puppy → instant mood fix. Scientists confused(are b## ye kya bawaal h)",
-      "She’s secretly a mood-fixer with sparkles included."
+      "Sneeze → puppy → instant mood fix. Scientists are confused 🤔 who is this magician lady",
+      "you’re secretly a mood-fixer with sparkles included. 😋"
     ]
   }
 ];        // Keep your original fun question array here
@@ -153,8 +153,14 @@ document.addEventListener("DOMContentLoaded", () => {
       finalMsg.innerHTML = `
         🎉 <b>Yay, You Finished!</b><br><br>
         <span style='font-weight:400;'>This journey is as epic as our friendship & memories.<br>
+        If smiles were stars, you’d light up galaxies and today, even the sky blushes watching you shine. 🌟<br>
+        You're not just celebrated today, you're felt, like poetry between breaths. And if joy had arms, they'd be busy trying to hold all the light you give. <br>
+        Happy Birthday, my dearest friend! 🥳<br>
         Now, close your eyes—imagine a big teddy🧸 as a gift!<br>
-        Aur next meet pe golgappe treat toh banta hai 😉🍫</span><br><br>
+        Aur next meet pe golgappe treat toh banta hai 🤗🍫<br>
+        JAI JAGANNATH! <span style="background-color: black; color: white; font-weight: bold; font-size: 1.2em;">⭕‼️⭕</span> 🙏<br>
+        
+        </span><br><br>
         <button class='nav-btn' onclick='history.back()'>🔙 Go Back</button>
       `;
       finalMsg.style.display = "block";
