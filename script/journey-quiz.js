@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     reacts: [
       "I wished I could go first! 🥺",
       "Damn he dodged my counter questions and you're correct! 🏆",
-      "Are mama nahi tha, By the way he had crush on you that time 😂",
+      "Are mama nahi tha, By the way he had crush on you that time, I believe you know that as females know 😂",
       "Naah, you came in middle and asked me not to counter questions 😆"
     ]
   },
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 ];        // Keep your original fun question array here
   const allSections = [friendshipQuiz, funQuiz];
-  const labels = ["Friendship Quiz", "Fun Quiz"];
+  const labels = ["Memory Quiz", "Fun Quiz"];
 
   const state = {
     section: 0,
